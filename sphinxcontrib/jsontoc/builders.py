@@ -1,4 +1,4 @@
-from sphinx.builders.html import JSONHTMLBuilder 
+from sphinxcontrib.serializinghtml import JSONHTMLBuilder
 from sphinx.environment.adapters.toctree import TocTree
 
 class JSONTOCHTMLBuilder(JSONHTMLBuilder):
